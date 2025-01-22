@@ -273,26 +273,51 @@ nav ul li a:hover{
 }
 
 .line-background .html{
-    width: 72%;
+    width: 80%;
     animation: html 2s linear;
 }
 .line-background .css{
-    width: 64%;
+    width: 70%;
     animation: css 2s linear;
 }
 .line-background .javascript{
-    width: 82%;
-    animation: javascrpt 2s linear;
+    width: 60%;
+    animation: javascript 2s linear;
+
+}
+.line-background .bootstrap{
+    width: 60%;
+    animation: bootstrap 2s linear;
+
+}
+.line-background .git{
+    width: 50%;
+    animation: git 2s linear;
 
 }
 .line-background .react{
-    width: 92%;
+    width: 50%;
     animation: react 2s linear;
 
 }
 .line-background .nodejs{
-    width: 50%;
+    width: 65%;
     animation: nodejs 2s linear;
+}
+
+.line-background .express{
+    width: 65%;
+    animation: express 2s linear;
+}
+
+.line-background .sql{
+    width: 75%;
+    animation: sql 2s linear;
+}
+
+.line-background .github{
+    width: 70%;
+    animation: github 2s linear;
 }
 
 @keyframes html{
@@ -300,7 +325,7 @@ nav ul li a:hover{
         width: 0%;
     }
     to{
-        width: 72%;
+        width: 80%;
     }
 }
 
@@ -309,7 +334,7 @@ nav ul li a:hover{
         width: 0%;
     }
     to{
-        width: 62%;
+        width: 70%;
     }
 }
 
@@ -318,7 +343,7 @@ nav ul li a:hover{
         width: 0%;
     }
     to{
-        width: 82%;
+        width: 60%;
     }
 }
 
@@ -327,7 +352,7 @@ nav ul li a:hover{
         width: 0%;
     }
     to{
-        width: 92%;
+        width: 50%;
     }
 }
 @keyframes nodejs{
@@ -335,7 +360,52 @@ nav ul li a:hover{
         width: 0%;
     }
     to{
-        width: 52%;
+        width: 65%;
+    }
+}
+
+@keyframes bootstrap{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+@keyframes git{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+@keyframes express{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 65%;
+    }
+}
+
+@keyframes sql{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+@keyframes github{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 70%;
     }
 }
 
